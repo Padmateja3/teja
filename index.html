@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="port.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+</head>
+<body>
+  <nav>
+    <input type="checkbox" class="checkbox" id="check">
+    <h1 class="nav_head">PODUGU PADMA TEJA</h1>
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#contact">contact</a></li>
+      <a href="#contact"><button class="contact_btn">contact me</button></a>
+    </ul>
+    <label for="check" class="checkbtn">
+      <i class="fas fa-bars"></i>
+    </label>
+  </nav>
+  <section id="home" class="home">
+    <img src="nani.jpg" alt="" width="450px" height="400px">
+    <div class="description">
+        <h1>Hello I am<br><span>  Podugu Padma Teja </span></h1>
+        <h2>I am a <span>frontend developer....</span></h2>
+        <p>
+            Aspiring Software Developer
+            As an aspiring software developer, I bring a solid foundation in programming languages such as Python and C, 
+            combined with expertise in front-end technologies like HTML, CSS, and JavaScript. Proficient in modern frameworks like Bootstrap and React.js, as well as SQL for database management,
+            I'm passionate about creating innovative and efficient solutions. Let's build something extraordinary together!</p>
+        <div class="font">
+            <i class="fas fa-phone" id="phone-icon"></i>
+            <i class="fas fa-envelope" id="email-icon"></i>
+            <i class="fab fa-linkedin" id="linkedin-icon"></i>
+            <i class="fab fa-whatsapp" id="whatsapp-icon"></i>
+            <i class="fab fa-instagram" id="instagram-icon"></i>
+            <i class="fab fa-facebook" id="facebook-icon"></i>
+            <i class="fas fa-map-marker-alt" id="location-icon"></i>  
+        </div>
+        <button id="download-cv">Download CV</button>
+        <div id="contact-info"></div>
+        
+        <script>
+            document.getElementById('phone-icon').addEventListener('click', function() {
+                document.getElementById('contact-info').innerText = 'Phone Number: +91 7013544848';
+            });
+        
+            document.getElementById('email-icon').addEventListener('click', function() {
+                document.getElementById('contact-info').innerText = 'Email: padmateja333@email.com';
+            });
+        
+            document.getElementById('linkedin-icon').addEventListener('click', function() {
+                document.getElementById('contact-info').innerText = 'LinkedIn:https://www.linkedin.com/in/podugu-padma-teja-2284872b7';
+            });
+        
+            document.getElementById('whatsapp-icon').addEventListener('click', function() {
+                document.getElementById('contact-info').innerText = 'WhatsApp: 7013544848';
+            });
+        
+            document.getElementById('instagram-icon').addEventListener('click', function() {
+                document.getElementById('contact-info').innerText = 'Instagram: me_tej_rocks_';
+            });
+        
+            document.getElementById('facebook-icon').addEventListener('click', function() {
+                document.getElementById('contact-info').innerText = 'Facebook: facebook.com/example';
+            });
+        
+            document.getElementById('location-icon').addEventListener('click', function() {
+                document.getElementById('contact-info').innerText = 'Location: parvathipuram, Andhra Pradesh, India';
+            });
+            document.getElementById('download-cv').addEventListener('click', function() { window.location.href = 'https://flowcv.com/resume/fkiogi6pur '; });
+        </script>
+        
+    </div>
+  
+    </section>
+
+   <section id="about" class="about">
+      <div class="about_section">
+           <h1>About<span>Me</span></h1>
+           <h2>frontend<span>developer</span></h2>
+           <p>I am a dedicated and enthusiastic fresher with a Bachelor of Technology in Computer Science and Engineering from Avanthi Institute of Engineering and Technology, graduating with a CGPA of 8.0. My passion lies in programming, web development, and leveraging my skills to solve real-world problems.
+            I have experience in various programming and web development languages, including C, Python, HTML, CSS, JavaScript, React.js, and Bootstrap. My computer skills extend to Microsoft Excel, Word, PowerPoint, and basic computer operations.
+            In addition to my technical abilities, I possess strong soft skills such as team collaboration, creative thinking, communication, problem-solving, and time management. I believe these skills are crucial for working effectively in a team environment and tackling complex challenges.
+
+        </p>
+            <button class="about_btn">Read more....</button>
+       </div>
+
+       <div class="about_photo">
+        <img src="nani.jpg" alt="" width="420px" width="360px">
+       </div>
+    </section>
+
+    <section id="skills" class="skills">
+        <h1 class="skills_section">My<span>Skills</span></h1>
+        <div class="card">
+            <div class="skills_card">
+                <i class="fas fa-laptop"></i>
+                <h2>programming languages</h2>
+                <p>C,Python.</p>
+                <a href="#">Read more...</a>
+            </div>
+
+            <div class="skills_card">
+                <i class="fas fa-laptop"></i>
+                <h2>Web development languages</h2>
+                <p>Html,css,JavaScript,Bootstrap,Reactjs</p>
+                <a href="#">Read more...</a>
+            </div>
+
+            <div class="skills_card">
+                <i class="fas fa-laptop"></i>
+                <h2>Database languages </h2>
+                <p> Sql</p>
+                <a href="#">Read more...</a>
+            </div>
+
+            <div class="skills_card">
+                <i class="fas fa-laptop"></i>
+                <h2>Soft skills</h2>
+                <p>Team Collaboration, Creative Thinking, Communication, Problem-Solving, Time Management</p>
+                <a href="#">Read more...</a>
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+
+
+    <section id="projects" class="projects">
+        <h1 class="project_section">My<span>projects</span></h1>
+        <div class="card">
+            <div class="project_card">
+                <i class="fas fa-computer"></i>
+                <h2>Design and Development of Powerbill prediction using AI & ML</h2>
+                <p>Developed an innovative solution to predict power bills using cutting-edge artificial intelligence and machine learning techniques. The project involved designing and implementing a predictive model that accurately forecasts energy consumption and costs.
+                   Leveraged extensive data analysis and feature engineering to enhance model accuracy, providing users with valuable insights for better energy management and cost savings.</p>
+                <a href="#">Read more...</a>
+            </div>
+
+            <div class="project_card">
+                <i class="fas fa-computer"></i>
+                <h2>orphans donars page</h2>
+                <p>Created a dynamic and user-friendly web page to facilitate donations for orphans using HTML, CSS, and JavaScript. The page includes features such as a seamless donation form, interactive elements to enhance user engagement, and responsive design to ensure accessibility on all devices.
+                By leveraging JavaScript for form validation and user interaction, the project aimed to provide a secure and efficient donation process, ultimately aiding in generating support and resources for orphans.</p>
+                <a href="#">Read more...</a>
+            </div>
+
+            <div class="project_card">
+                <i class="fas fa-computer"></i>
+                <h2>Youth motivation </h2>
+                <p>nitiated and developed an online community project aimed at inspiring and empowering young individuals. The platform features motivational content, success stories, and interactive sessions with mentors to foster a supportive environment for personal growth. 
+                Utilizing modern web technologies, the project is designed to be engaging and accessible, encouraging youth to pursue their dreams and overcome challenges. My role involved conceptualizing the project, designing the user interface, and implementing the features to create an impactful and meaningful experience for users.</p>
+                <a href="#">Read more...</a>
+            </div>
+        </div>
+
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="form">
+            <h1>Contact<span>Me</span></h1>
+            <form action="#Home">
+                <input type="text" name="name" placeholder="enter your name" required=""><br>
+                <input type="email" name="name" placeholder="enter your email" required=""><br>
+                <input type="number" name="name" placeholder="enter your phone No." required=""><br>
+                <textarea name="msg"  id="msg"  rows="6" cols="20" placeholder="enter your message"></textarea><br>
+                <button class="form_btn">Submit</button>
+            </form>
+            
+        </div>
+    </section>
+
+    <div class="footer">
+        <p><i class="fa-solid fa-copyright"></i> padma teja || All Rights Reserved...</p>
+    </div>
+  
+</body>
+</html>
