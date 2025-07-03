@@ -65,6 +65,11 @@ li a:hover{
 .checkbox{
     display: none;
 }
+.github-link {
+  color: black;
+  text-decoration: none; /* Optional: removes underline */
+}
+
 @media screen and(max-width:952px){
     .nav_head{
         font-size: 30px;
