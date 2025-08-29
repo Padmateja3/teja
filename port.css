@@ -544,3 +544,106 @@ button{
     }
     
 }
+/* Add this code at the end of your existing CSS */
+
+/* EXPERIENCE SECTION */
+.experience {
+    margin-top: 15rem;
+    padding-top: 100px;
+    text-align: center;
+    color: white;
+}
+
+h1.experience_section {
+    font-size: 50px;
+    color: white;
+    padding-top: 50px;
+}
+
+h1.experience_section span {
+    color: red;
+}
+
+/* Experience Card Container */
+.experience_card {
+    background-color: black;
+    padding: 30px;
+    margin: 50px auto;
+    max-width: 900px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px rgba(255, 0, 0, 0.3);
+    text-align: left;
+    transition: 0.4s ease-in-out;
+}
+
+/* Hover effect */
+.experience_card:hover {
+    border: 2px solid red;
+    background-color: red;
+    color: white;
+    transform: translateY(-15px);
+    box-shadow: 0px 0px 30px red;
+}
+
+/* Job title */
+.experience_card h3 {
+    font-size: 30px;
+    color: red;
+    margin-bottom: 10px;
+    transition: 0.3s ease-in-out;
+}
+
+.experience_card:hover h3 {
+    color: white;
+}
+
+/* Company and role info */
+.experience_card p {
+    font-size: 18px;
+    margin-bottom: 15px;
+    color: white;
+}
+
+/* List of work responsibilities */
+.experience_card ul {
+    padding-left: 20px;
+    margin-top: 10px;
+}
+
+.experience_card ul li {
+    font-size: 16px;
+    margin-bottom: 8px;
+    line-height: 1.6;
+    list-style: disc;
+    color: #ccc;
+}
+
+.experience_card:hover ul li {
+    color: white;
+}
+
+/* RESPONSIVE EXPERIENCE SECTION */
+@media screen and (max-width: 820px) {
+    h1.experience_section {
+        font-size: 35px;
+    }
+
+    .experience_card {
+        width: 90%;
+        padding: 20px;
+        margin: 30px auto;
+    }
+
+    .experience_card h3 {
+        font-size: 24px;
+    }
+
+    .experience_card p {
+        font-size: 16px;
+    }
+
+    .experience_card ul li {
+        font-size: 15px;
+    }
+}
+
