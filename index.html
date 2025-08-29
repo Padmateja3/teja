@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Portfolio - Podugu Padma Teja</title>
   <link rel="stylesheet" href="port.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
 </head>
@@ -14,173 +14,174 @@
     <ul>
       <li><a href="#home">Home</a></li>
       <li><a href="#about">About</a></li>
+      <li><a href="#experience">Experience</a></li>
       <li><a href="#projects">Projects</a></li>
       <li><a href="#skills">Skills</a></li>
-      <li><a href="#contact">contact</a></li>
-      <a href="#contact"><button class="contact_btn">contact me</button></a>
+      <li><a href="#contact">Contact</a></li>
+      <a href="#contact"><button class="contact_btn">Contact Me</button></a>
     </ul>
     <label for="check" class="checkbtn">
       <i class="fas fa-bars"></i>
     </label>
   </nav>
-  <section id="home" class="home">
-    <img src="nani.jpg" alt="" width="450px" height="400px">
-    <div class="description">
-        <h1>Hello I am<br><span>Podugu Padma Teja</span></h1>
-        <h2>I am a <span>Software Test Engineer....</span></h2>
-        <p>I am a passionate and detail-oriented <strong>Software Test Engineer</strong> with <strong>1 year of experience</strong> at <strong>BMS Infosolution Pvt. Ltd</strong> as a Quality Associate Analyst. Skilled in <strong>Manual Testing</strong>, with basic exposure to <strong>Selenium WebDriver</strong>, <strong>Java</strong>, and <strong>TestNG</strong>, I specialize in creating and executing test cases, identifying defects, and ensuring product quality. I am seeking an opportunity to contribute to delivering reliable, high-quality software solutions while enhancing my automation testing skills.</p>
-        <div class="font">
-            <i class="fas fa-phone" id="phone-icon"></i>
-            <i class="fas fa-envelope" id="email-icon"></i>
-            <i class="fab fa-linkedin" id="linkedin-icon"></i>
-            <i class="fab fa-whatsapp" id="whatsapp-icon"></i>
-            <i class="fab fa-github" id="github-icon"></i>
-            <i class="fab fa-instagram" id="instagram-icon"></i>
-            <i class="fab fa-facebook" id="facebook-icon"></i>
-            <i class="fas fa-map-marker-alt" id="location-icon"></i>  
-        </div>
-        <button id="download-cv">Download CV</button>
-        <div id="contact-info"></div>
-        
-        <script>
-            document.getElementById('phone-icon').addEventListener('click', function() {
-                document.getElementById('contact-info').innerText = 'Phone Number: +91 7013544848';
-            });
-        
-            document.getElementById('email-icon').addEventListener('click', function() {
-                document.getElementById('contact-info').innerText = 'Email: padmateja333@email.com';
-            });
-        
-            document.getElementById('linkedin-icon').addEventListener('click', function() {
-                document.getElementById('contact-info').innerText = 'linkedin.com/in/padma-teja-podugu-958476348';
-            });
-        
-            document.getElementById('whatsapp-icon').addEventListener('click', function() {
-                document.getElementById('contact-info').innerText = 'WhatsApp: 7013544848';
-            });
 
-            document.getElementById('github-icon').addEventListener('click', () => {
-             document.getElementById('contact-info').innerText = 'GitHub: https://github.com/Padmateja3';
-             });
-        
-            document.getElementById('instagram-icon').addEventListener('click', function() {
-                document.getElementById('contact-info').innerText = 'Instagram: _mr._teja_03_';
-            });
-        
-            document.getElementById('facebook-icon').addEventListener('click', function() {
-                document.getElementById('contact-info').innerText = 'Facebook: facebook.com/example';
-            });
-        
-            document.getElementById('location-icon').addEventListener('click', function() {
-                document.getElementById('contact-info').innerText = 'Location: Hyderabad,India';
-            });
-            document.getElementById('download-cv').addEventListener('click', function() { window.location.href = 'https://flowcv.com/resume/7foeihj37dm4'; });
-        </script>
-        
+  <!-- Home Section -->
+  <section id="home" class="home">
+    <img src="nani.jpg" alt="Profile Picture" width="450px" height="400px">
+    <div class="description">
+      <h1>Hello I am<br><span>Podugu Padma Teja</span></h1>
+      <h2>I am a <span>Software Test Engineer....</span></h2>
+      <p>I am a passionate and detail-oriented <strong>Software Test Engineer</strong> with professional experience at <strong>BMS Infosolution Pvt. Ltd</strong> as a Quality Associate Analyst. Skilled in <strong>Manual Testing</strong>, with basic exposure to <strong>Selenium WebDriver</strong>, <strong>Java</strong>, and <strong>TestNG</strong>, I specialize in creating and executing test cases, identifying defects, and ensuring product quality. I am seeking an opportunity to contribute to delivering reliable, high-quality software solutions while enhancing my automation testing skills.</p>
+      <div class="font">
+        <i class="fas fa-phone" id="phone-icon"></i>
+        <i class="fas fa-envelope" id="email-icon"></i>
+        <i class="fab fa-linkedin" id="linkedin-icon"></i>
+        <i class="fab fa-whatsapp" id="whatsapp-icon"></i>
+        <i class="fab fa-github" id="github-icon"></i>
+        <i class="fab fa-instagram" id="instagram-icon"></i>
+        <i class="fab fa-facebook" id="facebook-icon"></i>
+        <i class="fas fa-map-marker-alt" id="location-icon"></i>
+      </div>
+      <button id="download-cv">Download CV</button>
+      <div id="contact-info"></div>
+
+      <script>
+        document.getElementById('phone-icon').addEventListener('click', () => {
+          document.getElementById('contact-info').innerText = 'Phone Number: +91 7013544848';
+        });
+        document.getElementById('email-icon').addEventListener('click', () => {
+          document.getElementById('contact-info').innerText = 'Email: padmateja333@email.com';
+        });
+        document.getElementById('linkedin-icon').addEventListener('click', () => {
+          document.getElementById('contact-info').innerText = 'linkedin.com/in/padma-teja-podugu-958476348';
+        });
+        document.getElementById('whatsapp-icon').addEventListener('click', () => {
+          document.getElementById('contact-info').innerText = 'WhatsApp: 7013544848';
+        });
+        document.getElementById('github-icon').addEventListener('click', () => {
+          document.getElementById('contact-info').innerText = 'GitHub: https://github.com/Padmateja3';
+        });
+        document.getElementById('instagram-icon').addEventListener('click', () => {
+          document.getElementById('contact-info').innerText = 'Instagram: _mr._teja_03_';
+        });
+        document.getElementById('facebook-icon').addEventListener('click', () => {
+          document.getElementById('contact-info').innerText = 'Facebook: facebook.com/example';
+        });
+        document.getElementById('location-icon').addEventListener('click', () => {
+          document.getElementById('contact-info').innerText = 'Location: Hyderabad, India';
+        });
+        document.getElementById('download-cv').addEventListener('click', () => {
+          window.location.href = 'https://flowcv.com/resume/7foeihj37dm4';
+        });
+      </script>
     </div>
   </section>
 
-   <section id="about" class="about">
-      <div class="about_section">
-           <h1>About<span>Me</span></h1>
-           <h2>Software<span>Test Engineer</span></h2>
-           <p>I am a detail-oriented <strong>Software Test Engineer</strong> with <strong>1 year of experience</strong> at <strong>BMS Infosolution Pvt. Ltd</strong> as a Quality Associate Analyst. I have solid expertise in <strong>Manual Testing</strong> and hands-on exposure to <strong>Selenium WebDriver</strong>, <strong>Java</strong>, <strong>TestNG</strong>, and <strong>Maven</strong>. I am experienced in test case design, defect reporting, and executing functional and regression tests. Passionate about delivering high-quality software, I aim to grow my skills in automation testing and contribute effectively to QA processes.</p>
-            <button class="about_btn">Read more....</button>
-       </div>
-
-       <div class="about_photo">
-        <img src="nani.jpg" alt="" width="420px" width="360px">
-       </div>
-    </section>
-
-    <section id="skills" class="skills">
-        <h1 class="skills_section">My<span>Skills</span></h1>
-        <div class="card">
-            <div class="skills_card">
-                <i class="fas fa-laptop"></i>
-                <h2>Programming Languages</h2>
-                <p>Java, Python</p>
-                <a href="#">Read more...</a>
-            </div>
-
-            <div class="skills_card">
-                <i class="fas fa-laptop"></i>
-                <h2>Manual Testing</h2>
-                <p>SDLC & STLC, Test Case Design, Smoke & Sanity Testing, Functional & Regression Testing, Defect Life Cycle, Bug Severity & Priority, Test Summary Reports</p>
-                <a href="#">Read more...</a>
-            </div>
-
-            <div class="skills_card">
-                <i class="fas fa-laptop"></i>
-                <h2>Automation Testing</h2>
-                <p>Basics of Selenium WebDriver with Java, TestNG Framework, WebDriverWait, Maven (Basic)</p>
-                <a href="#">Read more...</a>
-            </div>
-
-          <div class="skills_card">
-                <i class="fas fa-laptop"></i>
-                <h2>Tools & Platforms</h2>
-                <p>Git, GitHub, Eclipse, VS Code</p>
-                <a href="#">Read more...</a>
-            </div>
-
-            <div class="skills_card">
-                <i class="fas fa-laptop"></i>
-                <h2>Soft Skills</h2>
-                <p>Team Collaboration, Creative Thinking, Communication, Problem-Solving, Time Management</p>
-                <a href="#">Read more...</a>
-            </div>
-        </div>
-    </section>
-
-<section id="projects" class="projects">
-  <h1 class="project_section">My<span>Projects</span></h1>
-  <div class="card">
-
-
-    <!-- Project 1 -->
-    <div class="project_card">
-      <i class="fas fa-cash-register"></i>
-      <h2>Macy’s Checkout System</h2>
-      <p><strong>Technologies:</strong> Selenium WebDriver (Basic), TestNG, Jira, Manual Testing</p>
-      <p><strong>Objective:</strong> Tested the complete checkout flow of Macy’s online shopping portal, including cart operations and payment integration.</p>
-      <p><strong>Responsibilities:</strong> Developed manual test cases, validated payment gateway integration, reported defects, and collaborated with developers for fixes.</p>
-      <p><strong>Outcome:</strong> Achieved 100% test coverage and ensured a smooth checkout process for end-users.</p>
+  <!-- About Section -->
+  <section id="about" class="about">
+    <div class="about_section">
+      <h1>About<span>Me</span></h1>
+      <h2>Software<span>Test Engineer</span></h2>
+      <p>I am a detail-oriented <strong>Software Test Engineer</strong> with professional experience at <strong>BMS Infosolution Pvt. Ltd</strong> as a Quality Associate Analyst. I have solid expertise in <strong>Manual Testing</strong> and hands-on exposure to <strong>Selenium WebDriver</strong>, <strong>Java</strong>, <strong>TestNG</strong>, and <strong>Maven</strong>. I am experienced in test case design, defect reporting, and executing functional and regression tests. Passionate about delivering high-quality software, I aim to grow my skills in automation testing and contribute effectively to QA processes.</p>
+      <button class="about_btn">Read more....</button>
     </div>
-
-    <!-- Project 2 -->
-    <div class="project_card">
-      <i class="fas fa-shopping-cart"></i>
-      <h2>E-Commerce Website – OpenCart Demo</h2>
-      <p><strong>Technologies:</strong> Selenium WebDriver (Basic), TestNG, Maven, Manual Testing</p>
-      <p><strong>Objective:</strong> To test an OpenCart Demo platform, focusing on functional and regression testing of various modules.</p>
-      <p><strong>Responsibilities:</strong> Designed and executed test cases, performed defect logging and tracking, and prepared test summary reports.</p>
-      <p><strong>Outcome:</strong> Successfully ensured the platform’s checkout flow and major functionalities worked seamlessly.</p>
+    <div class="about_photo">
+      <img src="nani.jpg" alt="Profile" width="420px" height="360px">
     </div>
+  </section>
 
+  <!-- Experience Section -->
+  <section id="experience" class="experience">
+    <h1 class="experience_section">My<span>Experience</span></h1>
+    <div class="experience_card">
+      <h3>Software Test Engineer</h3>
+      <p><strong>BMS Infosolution Pvt. Ltd – Quality Associate Analyst | Hyderabad, India</strong></p>
+      <ul>
+        <li>Worked as a Software Test Engineer with hands-on experience in manual and basic automation testing.</li>
+        <li>Involved in requirement analysis, test case design, execution, defect reporting, and preparing test summary reports.</li>
+        <li>Contributed to the <strong>E-Commerce Website (OpenCart Demo)</strong> project, focusing on functional, regression, and integration testing.</li>
+        <li>Practical exposure to SDLC, STLC, Defect Life Cycle, Bug Severity & Priority, and Agile methodologies.</li>
+        <li>Gained experience in Selenium WebDriver with Java, TestNG, WebDriverWait, and Maven for basic automation testing.</li>
+      </ul>
+    </div>
+  </section>
 
+  <!-- Skills Section -->
+  <section id="skills" class="skills">
+    <h1 class="skills_section">My<span>Skills</span></h1>
+    <div class="card">
+      <div class="skills_card">
+        <i class="fas fa-laptop"></i>
+        <h2>Programming Languages</h2>
+        <p>Java, Python</p>
+      </div>
+      <div class="skills_card">
+        <i class="fas fa-laptop"></i>
+        <h2>Manual Testing</h2>
+        <p>SDLC & STLC, Test Case Design, Smoke & Sanity Testing, Functional & Regression Testing, Defect Life Cycle, Bug Severity & Priority, Test Summary Reports</p>
+      </div>
+      <div class="skills_card">
+        <i class="fas fa-laptop"></i>
+        <h2>Automation Testing</h2>
+        <p>Basics of Selenium WebDriver with Java, TestNG Framework, WebDriverWait, Maven (Basic)</p>
+      </div>
+      <div class="skills_card">
+        <i class="fas fa-laptop"></i>
+        <h2>Tools & Platforms</h2>
+        <p>Git, GitHub, Eclipse, VS Code</p>
+      </div>
+      <div class="skills_card">
+        <i class="fas fa-laptop"></i>
+        <h2>Soft Skills</h2>
+        <p>Team Collaboration, Creative Thinking, Communication, Problem-Solving, Time Management</p>
+      </div>
+    </div>
+  </section>
 
+  <!-- Projects Section -->
+  <section id="projects" class="projects">
+    <h1 class="project_section">My<span>Projects</span></h1>
+    <div class="card">
+      <!-- Project 1 -->
+      <div class="project_card">
+        <i class="fas fa-cash-register"></i>
+        <h2>Macy’s Checkout System</h2>
+        <p><strong>Technologies:</strong> Selenium WebDriver (Basic), TestNG, Jira, Manual Testing</p>
+        <p><strong>Objective:</strong> Tested the complete checkout flow of Macy’s online shopping portal, including cart operations and payment integration.</p>
+        <p><strong>Responsibilities:</strong> Developed manual test cases, validated payment gateway integration, reported defects, and collaborated with developers for fixes.</p>
+        <p><strong>Outcome:</strong> Achieved 100% test coverage and ensured a smooth checkout process for end-users.</p>
+        <p><strong>Explore code: </strong><a href="https://github.com/Padmateja3/Macy-s-Checkout-Project" target="_blank">GitHub Repository</a></p>
+      </div>
+      <!-- Project 2 -->
+      <div class="project_card">
+        <i class="fas fa-shopping-cart"></i>
+        <h2>E-Commerce Website – OpenCart Demo</h2>
+        <p><strong>Technologies:</strong> Selenium WebDriver (Basic), TestNG, Maven, Manual Testing</p>
+        <p><strong>Objective:</strong> To test an OpenCart Demo platform, focusing on functional and regression testing of various modules.</p>
+        <p><strong>Responsibilities:</strong> Designed and executed test cases, performed defect logging and tracking, and prepared test summary reports.</p>
+        <p><strong>Outcome:</strong> Successfully ensured the platform’s checkout flow and major functionalities worked seamlessly.</p>
+        <p><strong>Explore code: </strong><a href="https://github.com/Padmateja3/Ecommerce-Manual-Testing-Project" target="_blank">GitHub Repository</a></p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact">
+    <div class="form">
+      <h1>Contact<span>Me</span></h1>
+      <form action="#Home">
+        <input type="text" name="name" placeholder="Enter your name" required=""><br>
+        <input type="email" name="email" placeholder="Enter your email" required=""><br>
+        <input type="number" name="phone" placeholder="Enter your phone No." required=""><br>
+        <textarea name="msg" id="msg" rows="6" cols="20" placeholder="Enter your message"></textarea><br>
+        <button class="form_btn">Submit</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <div class="footer">
+    <p><i class="fa-solid fa-copyright"></i> Podugu Padma Teja || All Rights Reserved...</p>
   </div>
-</section>
-
-    <section id="contact" class="contact">
-        <div class="form">
-            <h1>Contact<span>Me</span></h1>
-            <form action="#Home">
-                <input type="text" name="name" placeholder="enter your name" required=""><br>
-                <input type="email" name="name" placeholder="enter your email" required=""><br>
-                <input type="number" name="name" placeholder="enter your phone No." required=""><br>
-                <textarea name="msg"  id="msg"  rows="6" cols="20" placeholder="enter your message"></textarea><br>
-                <button class="form_btn">Submit</button>
-            </form>
-        </div>
-    </section>
-
-    <div class="footer">
-        <p><i class="fa-solid fa-copyright"></i> padma teja || All Rights Reserved...</p>
-    </div>
-  
 </body>
 </html>
-
-
