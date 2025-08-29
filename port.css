@@ -544,8 +544,6 @@ button{
     }
     
 }
-/* Add this code at the end of your existing CSS */
-
 /* EXPERIENCE SECTION */
 .experience {
     margin-top: 15rem;
@@ -554,6 +552,7 @@ button{
     color: white;
 }
 
+/* Heading */
 h1.experience_section {
     font-size: 50px;
     color: white;
@@ -570,27 +569,28 @@ h1.experience_section span {
     padding: 30px;
     margin: 50px auto;
     max-width: 900px;
-    border-radius: 10px;
+    border-radius: 15px;
     box-shadow: 0px 0px 20px rgba(255, 0, 0, 0.3);
     text-align: left;
-    transition: 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+    border: 2px solid transparent;
 }
 
-/* Hover effect */
+/* Full red hover */
 .experience_card:hover {
-    border: 2px solid red;
     background-color: red;
+    border: 2px solid red;
     color: white;
-    transform: translateY(-15px);
+    transform: translateY(-10px);
     box-shadow: 0px 0px 30px red;
 }
 
 /* Job title */
 .experience_card h3 {
-    font-size: 30px;
+    font-size: 28px;
     color: red;
     margin-bottom: 10px;
-    transition: 0.3s ease-in-out;
+    transition: color 0.3s ease-in-out;
 }
 
 .experience_card:hover h3 {
@@ -601,6 +601,11 @@ h1.experience_section span {
 .experience_card p {
     font-size: 18px;
     margin-bottom: 15px;
+    color: #e0e0e0;
+    line-height: 1.6;
+}
+
+.experience_card:hover p {
     color: white;
 }
 
@@ -646,4 +651,5 @@ h1.experience_section span {
         font-size: 15px;
     }
 }
+
 
